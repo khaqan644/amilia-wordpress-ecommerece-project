@@ -1,0 +1,47 @@
+2016.12.26 - Version 1.0.5
+	1. Update all plugins
+
+2016.03.10 - Version 1.0.4
+	1. Fixed conflict theme with Revolution Slider version 5.2.1
+		Changed file:
+			- functions.php
+			- inc/template.functions.php
+			- inc/elements/landing_item/cms_landing_item.php
+			- inc/elements/progress/cms_progress.php
+			- inc/elements/cms_promo.php
+			- vc_param/cms_carousel.php
+			- vc_param/cms_grid.php
+			- vc_param/cms_fancybox_single.php
+			- vc_param/vc_column.php
+			- vc_param/vc_column_inner.php
+			- vc_param/vc_single_image.php
+			- vc_param/vc_toggle.php
+
+2016.02.25 - Version 1.0.3
+	1. Add new option for logo config on Theme Option
+		Changed file: 
+			- inc/options/function.options.php
+	2. Fixed video background
+		Changed file: 
+			- assets/scss/support.scss
+	3. Fixed pagination on search page
+		Changed file:
+			- function.php
+
+2016.01.19 - Version 1.0.2
+	1. Fixed issue changed layout of fancybox single
+		Changed file:
+			- Add new folder vc_params/single-fancy
+			- vc_params/cms_fancybox_single.php
+	2. Fixed issue Woo add-to-cart button ajax not work
+		Changed file:
+			- woocommerce/loop/add-to-cart.php
+			- assets/scss/woo.scss
+	3. Add new features: change site color
+		Changed file:
+			- assets/scss/*.scss
+	4. Fixed issue "there is no index file." in child theme
+
+2016.01.19 - Version 1.0.1
+	- Add Sample data folder
+	- Add child theme
